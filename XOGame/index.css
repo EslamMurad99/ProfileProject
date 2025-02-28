@@ -1,0 +1,84 @@
+body{
+    background-image: url(images/tot3.jpg);
+    background-size: cover;   
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+}
+.game
+{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    font-weight: 500;
+    margin: auto;
+}
+
+.title
+{
+    background: #f25;
+    font-weight: bolder;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+span
+{
+    color: #fa0;
+}
+
+.square
+{
+    width: 80px;
+    height: 80px;
+    background: #f25;
+    float: left;
+    font-size: 50px;
+    margin: 2px;
+}
+
+.square:hover
+{
+    cursor: pointer;
+    background: #000;
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+        /* means 1em = 12px ;   
+           but as normal 1em = 16px ;
+        */
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 300px){
+    body{
+        font-size: 10px;
+        /*
+             means 1em = 10px ;
+             but as normal 1em = 16px ;
+        */
+    }
+}
+
+@media (max-width: 150px){
+    body{
+        font-size: 8px;
+        /*
+             means 1em = 8px ;
+             but as normal 1em = 16px ;
+        */
+    }
+}
